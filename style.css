@@ -279,16 +279,29 @@ footer a:hover {
 }
 .contacts ul {
     width: 50%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 0;
+   
 }
 .contacts li {
+    width: 100%;
     list-style: none;
+    margin-bottom: 5px;
 }
 .contacts img {
     width: 30px;
+    background-color: #716f6f;
+    border-radius: 50%;
+    transition: ease .3s;
+   
+}
+
+.contacts img:hover {
+   background-color: #fff;
+    border: 1px solid #fff;
+    transition: .3s;
 }
 .contacts input {
     padding: 15px;
